@@ -37,6 +37,8 @@ function handleRequest(req, res) {
 
 server = http.createServer(handleRequest);
 
-server.listen(5000, 'localhost', function() {
+const port = process.env.PORT || 5000;
+
+server.listen(port, function() {
   console.log("Listening on port 5000")
 })
