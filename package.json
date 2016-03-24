@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/DW579/fs-pet-shop/issues"
   },
-  "homepage": "https://github.com/DW579/fs-pet-shop#readme"
+  "homepage": "https://github.com/DW579/fs-pet-shop#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4"
+  }
 }
